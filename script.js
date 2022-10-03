@@ -42,11 +42,12 @@ deleteAllLists.addEventListener("click", function() {
 });
 
 
-// Burger bar function
+// Burger bar-ის ფუნქცია
 
 let burgerBar = document.getElementById("burger-bar");
+let nav = document.getElementById("header-nav");
 
 burgerBar.addEventListener("click", function() {
     burgerBar.classList.toggle("burger-bar-active");
-
+    nav.classList.toggle("mobile-nav-active");
 })
