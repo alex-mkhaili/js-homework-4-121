@@ -40,3 +40,13 @@ todoForm.addEventListener('submit', function(event) {
 deleteAllLists.addEventListener("click", function() {
     todoUl.innerHTML = " ";
 });
+
+
+// Burger bar function
+
+let burgerBar = document.getElementById("burger-bar");
+
+burgerBar.addEventListener("click", function() {
+    burgerBar.classList.toggle("burger-bar-active");
+
+})
